@@ -38,3 +38,4 @@ fetch("https://opensheet.elk.sh/1T6dq7sC81za_P0nHxjzWab1vIVw-Yi_AgVxR9qKdNfA/mai
     html += `</div>`;
     document.body.innerHTML += html;
   });
+document.body.innerHTML += "<p>読み込み完了</p>";
